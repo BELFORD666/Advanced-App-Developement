@@ -1,0 +1,51 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .sidebar-toggle {
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .sidebar-toggle.open {
+    background-color: #d61010; /* Change color when the sidebar is open */
+  }
+  /* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-header {
+    margin-right: auto; /* Pushes the navbar links to the left */
+  }
+  
+  .navbar-header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-header li {
+    margin: 0;
+    padding: 100;
+  }
+  
+  .navbar-header li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  /* components/Login.css */

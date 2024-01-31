@@ -1,0 +1,53 @@
+/* App.css */
+.container {
+  .container {
+    display: flex;
+    flex-direction: column; /* Adjust flex direction as needed */
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  }
+  
+}
+.app-container{
+  .container {
+    display: flex;
+    flex-direction: column; /* Adjust flex direction as needed */
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  }
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  transition: transform 0.3s ease; /* Add smooth transition for transform changes */
+}
+
+.sidebar.open {
+  transform: translateX(0); /* Show the sidebar */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+button {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.navbar {
+  background-color: #333;
+  color: #d61010;
+  padding: 10px;
+  text-align: center;
+}
