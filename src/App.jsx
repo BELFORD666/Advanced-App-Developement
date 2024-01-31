@@ -17,6 +17,7 @@ const User = lazy(() => import('./components/User'));
 const About = lazy(() => import('./pages/About'));
 import RechargePlanPage from './pages/RechargePlanPage';
 import AdminProfile from './pages/AdminProfile';
+import RechargePlanPageAdmin from './pages/RechargePlanPageAdmin';
 
 const App = () => {
   // Initialize state for selectedPlan and rechargePlans
@@ -49,6 +50,7 @@ const App = () => {
               <Route path="/about" element={<About />} />
               <Route path="/userProfile" element={<UserProfile />} />
               <Route path="/AdminProfile" element={<AdminProfile />} />
+              <Route path="/RechargePlanPageAdmin" element={<RechargePlanPageAdmin />} />
               {/* Use camelCase for route paths and match with the component name */}
               <Route path="/ReachargePlanPage" element={<RechargePlanPage plans={rechargePlans} selectedPlan={selectedPlan} onPlanSelect={handlePlanSelect} />} />
             </Routes>

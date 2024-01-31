@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SidebarAdmin from './SidebarAdmin'; // Import the Sidebar component
 import './sidebarAdmin.css'; // Import the CSS file
+import RechargePlanPageAdmin from '../pages/RechargePlanPageAdmin';
 
 const Admin = () => {
   const [isSidebar, setSidebar] = useState(false);
@@ -22,6 +23,7 @@ const Admin = () => {
         </div>
       </nav>
       {isSidebar && <SidebarAdmin />}
+      <RechargePlanPageAdmin/>
     </div>
   );
 };

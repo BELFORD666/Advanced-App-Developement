@@ -15,6 +15,7 @@ const SidebarAdmin = () => {
        
       <li><Link to="/">Home</Link></li>
             <li><Link to="/AdminProfile">Profile</Link></li>
+            <li><Link to="/RechargePlanPageAdmin">Plan</Link></li>
             {/* <li><Link to="/Login">Login</Link></li>
             <li><Link to="/Signup">Signup</Link></li>
              */}

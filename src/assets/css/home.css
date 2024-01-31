@@ -1,48 +1,60 @@
 /* Home.css */
 
 .home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 50px;
-    background-color: #edf2de; /* Background color */
-    /* background-image: url('https://im'); Background image URL */
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* Set the height to full viewport height */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  background-color: #edf2de; /* Background color */
+  /* background-image: url('https://im'); Background image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height to full viewport height */
+}
+
+.home-header {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+  /* Remove duplicate styles */
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 768px) {
   .home-header {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #333;
+    font-size: 3.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
   }
-  
-  .home-text {
-    font-size: 18px;
-    color: #555;
-  }
-  
-  .home-button {
-    margin-top: 30px;
-    background-color: #3391ef;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .home-button:hover {
-    background-color: #1565C0;
-  }
-  
-  .home-image {
-    max-width: 100%;
-    margin: 20px 0;
-    border-radius: 10px;
-  }
-  
+}
+
+.home-text {
+  font-size: 18px;
+  color: #555;
+}
+
+.home-button {
+  margin-top: 30px;
+  background-color: #3391ef;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.home-button:hover {
+  background-color: #1565c0;
+}
+
+.home-image {
+  max-width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+}

@@ -1,0 +1,51 @@
+/* Plan.css */
+
+/* Unique class name for RechargePlanPageAdmin */
+.RechargePlanPageAdmin__recharge-plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  /* Styles specific to the RechargePlansAdmin section */
+  .RechargePlanPageAdmin__recharge-plan-container .RechargePlansAdmin {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  /* Styles for the h1 inside RechargePlansAdmin */
+  .RechargePlanPageAdmin__recharge-plan-container .RechargePlansAdmin h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for the list of plans inside RechargePlansAdmin */
+  .RechargePlanPageAdmin__recharge-plan-container .RechargePlansAdmin .horizontal-plansAdmin {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Styles for each plan item inside RechargePlansAdmin */
+  .RechargePlanPageAdmin__recharge-plan-container .RechargePlansAdmin .plan-itemAdmin {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for each plan item */
+  .RechargePlanPageAdmin__recharge-plan-container .RechargePlansAdmin .plan-itemAdmin:hover {
+    background-color: #f0f0f0;
+  }
+  

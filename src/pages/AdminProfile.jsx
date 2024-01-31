@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import '..//assets/css/profile.css';
 import SidebarUser from '../components/SidebarUser';
 import '..//components/SidebarUser.css'; 
+import SidebarAdmin from '../components/SidebarAdmin';
 
 
 const AdminProfile = () => {
@@ -58,7 +59,7 @@ const AdminProfile = () => {
           
         </div>
       </nav>
-      {isSide && <SidebarUser />}
+      {isSide && <SidebarAdmin />}
     
     
     <div className='userProfile-container'>
